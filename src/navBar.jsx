@@ -1,8 +1,10 @@
-import React from 'react'
+import React from "react"
 
 function navBar() {
   return (
-    <div>navBar</div>
+   <div className = "navBar">
+<a>My store</a>
+   </div>
   )
 }
 
