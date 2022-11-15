@@ -1,16 +1,23 @@
 import React from "react";
+import { ImPlus } from "react-icons/im";
+import { ImMinus } from "react-icons/im";
 
  const OneProduct = () => {
   return (
-    <div className ="card">
-        <img className= "card-img-top" src="https://www.google.https://s7d3.scene7.com/is/image/BareEscentuals/image.png?fmt=pjpeg/search?q=foundation&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiA34T13K77AhV-X_EDHWkwA2YQ_AUoAXoECAMQAw&biw=1440&bih=701&dpr=2#imgrc=a3EpfwKL4u6jaM" alt = "Puder"/>
+    
+    <div className ="card" style={{ margin: 50, borderStyle: "dashed" }}>
+        <img className= "card-img-top" src="https://www.jasmin.rs/media/catalog/product/cache/76b8c100e2cd4c61926cfb170351b2a4/3/6/3614272450554_4_1.jpg" alt = "Puder"/>
         <div className="card-body">
             <h3 className = "card-title">Proizvod 1</h3>
             <p className="card-text">
                 Informacije o prozivodu.
             </p>
-            <a className="btn">+</a>
-            <a className="btn">-</a>
+            <a button className="btn">
+              <ImPlus />
+            </a>
+            <a button className="btn">
+              <ImMinus />
+            </a>
         </div>
 
     </div>
