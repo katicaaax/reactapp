@@ -1,19 +1,19 @@
-import React from "react"
-import  oneProduct  from "./oneProduct";
+import React from "react";
+import  OneProduct  from "./oneProduct";
 
 
 
 const Products = () => {
   return (
     <div className="all-products">
-        <oneProduct />
-        <oneProduct />
-        <oneProduct />
+        <OneProduct />
+        <OneProduct />
+        <OneProduct />
 
        
 
     </div>
-  )
-}
+  );
+};
 
 export default Products;
